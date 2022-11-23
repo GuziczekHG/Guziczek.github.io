@@ -76,3 +76,45 @@ section img#moon
 {
     mix-blend-mode: screen;
 }
+.text-box
+{
+    font-family: 'Kaushan Script', cursive;
+    text-shadow: 0 0 80px rgba(255,255,255,.5);
+    font-size: 80px;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: -30px;
+    background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: aitf 80s linear infinite;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-backface-visibility: hidden;
+}
+@-webkit-keyframes aitf {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 100% 100%; }
+}
+.text-under
+{
+    font-size: 3em;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    color:#fff;
+}
+.tiktok
+{
+    width: 3%;
+    height: 6%;
+    margin-left: 53px;
+    margin-top: 730px;
+}
+.insta
+{
+    width: 3%;
+    height: 6%;
+    margin-left: 50px;
+    margin-top: 800px;
+    color: white;
+}
